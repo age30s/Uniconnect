@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CS 440 Profile Builder</title>
+    <link rel="stylesheet" href="interests.css">
+    <script type="module" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <script type = "module" src="interests.js"></script>
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <nav class ="blue_heading">
+        <div class="grid">
+            <img class="flame_img" src ="image.png"/>
+            <h3 class ="uniconnect"> UniConnect </h3>
+        </div>
+    </nav>
+    <div class="profile_builder1">
+        <div class="user_interests"> My Interests</div>
+        <div class="user_bio">
+            <label>Write a bio about yourself:</label>
+            <textarea type="text" class="bio" id="profile_bio" name="bio" placeholder="Type your content here..."></textarea><br><br>
+        </div>
+        <div class="interest_selection">
+            <label>Select organizations that you're interested in:</label>
+            <div class="vertical-menu">
+                <a>
+                    <div class="menu_row">
+                        <div class="item_div">
+                          <div class="selection_item">Art</div>
+                          <div class="select_flex">
+                            <input type="checkbox" id="selection1" name="selection" class="selection" />
+                            <label>Art</label>
+                          </div>
+                        </div>
+                        <div class="item_div">
+                          <div class="selection_item"> Music</div>
+                          <div class="select_flex">
+                            <input type="checkbox" id="selection2" name="selection" class="selection" />
+                            <label>Music</label>
+                          </div>
+                        </div>
+                        <div class="item_div">
+                          <div class="selection_item">Dance</div>
+                          <div class="select_flex">
+                            <input type="checkbox" id="selection3" name="selection" class="selection" />
+                            <label>Dance</label>
+                          </div>
+                        </div>
+                      </div>
+                </a>
+                <a>
+                    <div class="menu_row">
+                        <div class="item_div">
+                          <div class="selection_item"> Travel</div>
+                          <div class="select_flex">
+                            <input type="checkbox" id="selection1" name="selection" class="selection" />
+                            <label>Travel</label>
+                          </div>
+                        </div>
+                        <div class="item_div">
+                          <div class="selection_item"> Gardening</div>
+                          <div class="select_flex">
+                            <input type="checkbox" id="selection2" name="selection" class="selection" />
+                            <label>Gardening</label>
+                          </div>
+                        </div>
+                        <div class="item_div">
+                          <div class="selection_item"> Technology</div>
+                          <div class="select_flex">
+                            <input type="checkbox" id="selection3" name="selection" class="selection" />
+                            <label>Technology</label>
+                          </div>
+                        </div>
+                      </div>
+                </a>
+                <a>
+                    <div class="menu_row">
+                        <div class="item_div">
+                          <div class="selection_item"> Reading</div>
+                          <div class="select_flex">
+                            <input type="checkbox" id="selection1" name="selection" class="selection" />
+                            <label>Reading</label>
+                          </div>
+                        </div>
+                        <div class="item_div">
+                          <div class="selection_item"> Blogging</div>
+                          <div class="select_flex">
+                            <input type="checkbox" id="selection2" name="selection" class="selection" />
+                            <label>Blogging</label>
+                          </div>
+                        </div>
+                        <div class="item_div">
+                          <div class="selection_item"> Sports</div>
+                          <div class="select_flex">
+                            <input type="checkbox" id="selection3" name="selection" class="selection" />
+                            <label>Sports</label>
+                          </div>
+                        </div>
+                      </div>
+                </a>
+            </div>
+        </div>
+        <div class="myButtons">
+            <a href="index.html"><button class="next_button">←</button></a>
+            <button class="next_button2" onclick="submission_check_bio()">→</button>
+        </div>
+    </div>
+  </body>
+</html>

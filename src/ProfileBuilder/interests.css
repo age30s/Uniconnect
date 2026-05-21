@@ -1,0 +1,161 @@
+/* ------------------------------------------------------------------------ 
+this is for the blue header at the top */
+.blue_heading{
+    background-color: #384B70;
+    margin-top: 0px;
+}
+
+.grid{
+    display: flex;
+}
+
+.flame_img{
+    padding-top: 10px;
+    padding-left: 20px;
+    height: 50px;
+    padding-right: 15px;
+}
+
+.uniconnect{
+    color: antiquewhite;
+    font-size: 25px;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    padding-right: 800px;
+}
+
+.menu_panel{
+    display: flex;
+    align-items: center;
+    margin:0px;
+}
+
+body{
+    margin:0px;
+}
+
+
+/* ---------------------------------------------------------------------- */
+
+.profile_builder1{
+    width: 800px;
+    height: 800px;
+    background-color: #D1D1D1;
+    margin-left: 250px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 60px;
+    box-shadow: 10px 10px 5px rgb(95, 103, 105);
+
+}
+
+.user_interests{
+    font-size: 40px;
+    color: rgb(88, 84, 84);
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 40px;
+}
+
+.user_bio{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-left: 80px;
+    margin-top: -10px;
+}
+.bio{
+    width: 600px;
+    height: 150px;
+    border-radius: 10px;
+    border: none;
+}
+
+textarea {
+    vertical-align: top;
+    text-align: left;
+    padding-top: 0.5em;
+  }
+
+/*-------------------------------------------------------------------------*/
+/*this is for the interests selection*/
+
+.interest_selection{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 80px;
+    margin-top: -10px;
+}
+
+.vertical-menu {
+    width: 600px;
+    height: 400px;
+    overflow-y: auto;
+}
+  
+.vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+.menu_row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.selection_item{
+    width: 150px;
+    height: 150px;
+    border-color:black;
+    border-width: 3px;
+    border-style: solid;
+    text-align:center;
+    border-radius: 10px;
+}
+
+.next_button{
+    width: 100px;
+    height: 40px;
+    font-size: 25px;
+    margin-left: 40px;
+    box-shadow: 10px 10px 5px rgb(95, 103, 105);
+    background-color: mediumseagreen;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.item_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.next_button2{
+    width: 100px;
+    height: 40px;
+    font-size: 25px;
+    margin-left: 520px;
+    box-shadow: 10px 10px 5px rgb(95, 103, 105);
+    background-color: mediumseagreen;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.myButtons{
+    display:flex;
+    flex-direction: row;
+}
+
+.select_flex{
+    display: flex;
+    flex-direction: row;
+}
+
