@@ -1,7 +1,9 @@
 import { useState } from 'react'
+import { useNavigate } from 'react-router-dom';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count] = useState(0)
+  const navigate = useNavigate();
 
   return (
     <>
@@ -17,7 +19,7 @@ function App() {
         <button
           type="button"
           className="counter"
-          onClick={() => setCount((count) => count + 1)}
+          onClick={() => navigate('/login')}
         >
           Count is {count}
         </button>
